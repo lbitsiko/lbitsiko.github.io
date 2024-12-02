@@ -1,17 +1,28 @@
+/* General Body Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace; /* Coding font */
     line-height: 1.6;
     margin: 20px;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #2b2b2b; /* Darcula dark background */
+    color: #a9b7c6; /* Light gray for readability */
 }
 
+/* Header Styling */
 header {
     text-align: center;
     margin-bottom: 20px;
+    color: #ffc66d; /* Yellow-gold for headers */
 }
 
+header h1 {
+    font-size: 2em;
+    color: #ff79c6; /* Bright pink-purple for your name */
+}
+
+/* Profile Picture */
 .profile-pic {
     width: 150px;              /* Adjust size as needed */
     height: auto;
@@ -22,6 +33,7 @@ header {
     margin-bottom: 20px;
 }
 
+/* Navigation Menu */
 nav ul {
     list-style: none;
     padding: 0;
@@ -35,41 +47,46 @@ nav ul li {
 
 a {
     text-decoration: none;
-    color: #007acc;
+    color: #cc7832; /* Orange for href links */
 }
 
 a:hover {
     text-decoration: underline;
+    color: #ffc66d; /* Yellow hover color */
 }
 
+/* Footer */
 footer {
     text-align: center;
     margin-top: 20px;
+    color: #6a8759; /* Greenish tone for footer */
 }
 
-/* Add blog section */
+/* Blog Section */
 #blog {
     margin-top: 40px;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #3c3f41; /* Slightly darker Darcula background */
     border-radius: 10px;
+    color: #a9b7c6; /* Light gray text */
 }
 
 #blog h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #ffb86c; /* Yellow-gold for section headers */
 }
 
 .blog-post {
     margin-bottom: 20px;
     padding-bottom: 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #4b5363; /* Subtle border */
 }
 
 .blog-post h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #007acc;
+    color: #cc7832; /* Orange for blog post titles */
 }
 
 .blog-post p {
@@ -77,63 +94,63 @@ footer {
 }
 
 .blog-post a {
-    color: #007acc;
+    color: #cc7832;
     text-decoration: none;
 }
 
 .blog-post a:hover {
     text-decoration: underline;
+    color: #ffc66d; /* Hover color for blog links */
 }
 
 .date {
     display: block;
     font-size: 0.9em;
-    color: #777;
-    margin-top: 5px;
+    color: #6272a4; /* Blue-gray for dates */
 }
 
-
-/* Add about section */
+/* About Section */
 #about {
     margin-top: 40px;
     padding: 20px;
-    /* background-color: rgba(245, 245, 245, 0.3); 20% opacity */
+    background-color: #3c3f41; /* Slightly darker for sections */
     border-radius: 10px;
 }
 
 #about h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #bd93f9; /* Purple for section headers */
 }
 
 #about p {
     text-align: justify;
 }
 
-
-/* Add news section - bold
+/* News Section */
 #news {
     margin-top: 40px;
     padding: 20px;
-    background-color: #f5f5f5;
+    background-color: #3c3f41; /* Matches other sections */
     border-radius: 10px;
 }
 
 #news h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #ffb86c; /* Yellow-gold */
 }
 
 .news-item {
     margin-bottom: 15px;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #4b5363;
     padding-bottom: 10px;
 }
 
 .news-item h3 {
     margin: 0;
     font-size: 1.2em;
-    color: #007acc;
+    color: #cc7832; /* Orange for titles */
 }
 
 .news-item p {
@@ -143,51 +160,14 @@ footer {
 .date {
     display: block;
     font-size: 0.9em;
-    color: #777;
-} */
-
-#news {
-    font-size: 0.7em; /* Smaller font size */
-    /* background-color: rgba(249, 249, 249, 0.5); Lighter background with 50% transparency */
-    /* border: 1px solid #ddd; Subtle border to separate it */
-    padding: 10px;
-    border-radius: 5px;
-    margin-top: 30px;
+    color: #6272a4; /* Muted blue-gray */
 }
 
-#news h2 {
-    font-size: 1.1em; /* Smaller heading */
-    text-align: center;
-    /* color: #555; Muted color */
-    margin-bottom: 10px;
-}
-
-.news-item {
-    margin-bottom: 10px;
-}
-
-.news-item h3 {
-    font-size: 1em;
-    color: #007acc; /* Less bold color for titles */
-}
-
-.news-item p {
-    margin: 5px 0;
-    /* color: #666; Muted text color */
-}
-
-.date {
-    display: block;
-    font-size: 0.8em;
-    /* color: #999; Light gray for dates */
-}
-
-/* add contact info
-*/
+/* Contact Info */
 #contact {
     margin-top: 40px;
     padding: 20px;
-    /* background-color: #f5f5f5; */
+    background-color: #3c3f41; /* Matches other sections */
     border-radius: 10px;
     text-align: center;
 }
@@ -206,34 +186,3 @@ footer {
 .social-icon:hover {
     transform: scale(1.2); 
 }
-
-
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('background.jpg');
-    background-size: cover;        /* Make the background cover the entire page */
-    background-attachment: fixed;  /* Keep the background fixed while scrolling */
-    background-position: center;   /* Center the background image */
-    background-repeat: no-repeat;  /* Don't repeat the background image */
-    opacity: 0.9;                  /* Adjust transparency if needed */
-}
-
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255, 255, 255, 0.1); /* White overlay with 50% opacity */
-    pointer-events: none;
-    z-index: -1;
-}
-
-
