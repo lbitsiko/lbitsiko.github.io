@@ -1,0 +1,45 @@
+---
+layout: none
+title: Blog
+pagination: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - Loizos Bitsikokos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>Blog</h1>
+    <p>Explore my thoughts on communication, research, and technology.</p>
+  </header>
+
+  <section id="blog-list">
+{% for post in paginator.posts %}
+  <div class="blog-post">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    <a href="{{ post.url }}">Read more</a>
+    <span class="date">{{ post.date | date: "%B %d, %Y" }}</span>
+  </div>
+{% endfor %}
+
+  </section>
+
+  <footer>
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}">← Previous</a>
+      {% endif %}
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}">Next →</a>
+      {% endif %}
+    </div>
+    <a href="/index.html">Back to Home</a>
+  </footer>
+</body>
+</html>
