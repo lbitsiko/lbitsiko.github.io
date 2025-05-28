@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }} - Loizos Bitsikokos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p>Explore my thoughts on communication, research, and technology.</p>
+  </header>
+
+  <section id="blog">
+    <article class="blog-post">
+      <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
+      {{ content }}
+    </article>
+  </section>
+
+  <footer>
+    <a href="/blog.html">Back to Blog</a> | <a href="/index.html">Home</a>
+  </footer>
+</body>
+</html>
