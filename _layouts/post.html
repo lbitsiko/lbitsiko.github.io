@@ -16,6 +16,25 @@
     <article class="blog-post">
       <p class="date">{{ page.date | date: "%B %d, %Y" }}</p>
       {{ content }}
+      <!-- <div id="share-buttons" style="margin-top: 30px;">
+  <h4>Share this post:</h4>
+  <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url | uri_escape }}&text={{ page.title | uri_escape }}" target="_blank">🐦 Twitter</a> |
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url | uri_escape }}" target="_blank">🔗 LinkedIn</a> |
+  <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ site.url }}{{ page.url | uri_escape }}">✉️ Email</a>
+</div> -->
+<div id="share-buttons">
+  <h4>Share this post:</h4>
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url | uri_escape }}" target="_blank">
+    <img src="/icons/linkedin.png" alt="Share on LinkedIn" class="share-icon">
+  </a>
+</a>
+  <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url | uri_escape }}&text={{ page.title | uri_escape }}" target="_blank">
+    <img src="/icons/twitter.png" alt="Share on Twitter" class="share-icon">
+  </a>
+  <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ site.url }}{{ page.url | uri_escape }}">
+    <img src="/icons/icons8-email-50.png" alt="Share via Email" class="share-icon">
+  </a>
+</div>
     </article>
   </section>
 
