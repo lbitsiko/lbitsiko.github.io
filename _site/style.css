@@ -1,0 +1,188 @@
+/* General Body Styling */
+body {
+    font-family: 'Courier New', Courier, monospace; /* Coding font */
+    line-height: 1.6;
+    margin: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b2b2b; /* Darcula dark background */
+    color: #a9b7c6; /* Light gray for readability */
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffc66d; /* Yellow-gold for headers */
+}
+
+header h1 {
+    font-size: 2em;
+    color: #ff79c6; /* Bright pink-purple for your name */
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 150px;              /* Adjust size as needed */
+    height: auto;
+    border-radius: 10%;        /* Makes the image circular */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #cc7832; /* Orange for href links */
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffc66d; /* Yellow hover color */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6a8759; /* Greenish tone for footer */
+}
+
+/* Blog Section */
+#blog {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #3c3f41; /* Slightly darker Darcula background */
+    border-radius: 10px;
+    color: #a9b7c6; /* Light gray text */
+}
+
+#blog h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffb86c; /* Yellow-gold for section headers */
+}
+
+.blog-post {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #4b5363; /* Subtle border */
+}
+
+.blog-post h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #cc7832; /* Orange for blog post titles */
+}
+
+.blog-post p {
+    margin: 5px 0;
+}
+
+.blog-post a {
+    color: #cc7832;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+    color: #ffc66d; /* Hover color for blog links */
+}
+
+.date {
+    display: block;
+    font-size: 0.9em;
+    color: #6272a4; /* Blue-gray for dates */
+}
+
+/* About Section */
+#about {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #3c3f41; /* Slightly darker for sections */
+    border-radius: 10px;
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #bd93f9; /* Purple for section headers */
+}
+
+#about p {
+    text-align: justify;
+}
+
+/* News Section */
+#news {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #3c3f41; /* Matches other sections */
+    border-radius: 10px;
+}
+
+#news h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffb86c; /* Yellow-gold */
+}
+
+.news-item {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #4b5363;
+    padding-bottom: 10px;
+}
+
+.news-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #cc7832; /* Orange for titles */
+}
+
+.news-item p {
+    margin: 5px 0;
+}
+
+.date {
+    display: block;
+    font-size: 0.9em;
+    color: #6272a4; /* Muted blue-gray */
+}
+
+/* Contact Info */
+#contact {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #3c3f41; /* Matches other sections */
+    border-radius: 10px;
+    text-align: center;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-icon {
+    width: 30px; 
+    height: 30px;
+    margin: 0 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2); 
+}
