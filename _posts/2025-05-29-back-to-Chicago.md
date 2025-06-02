@@ -21,7 +21,7 @@ Spending a few days in the city reminded me of the complexities of life and the 
 
 Living in Chicago would not have been the same without all those folks, flatmates, instructors, and fellow students. With the distance of time, I can say that it was truly an experience of being surrounded by lots of love amidst inconceivable amounts of pain. "You can kill the fun, but you cannot kill those who are having it. And in any case, Lazarus' life got restored".
 
-The first year in Lafayette, filled my life wonderful new people, and concluded by going back to the city marking my first experience in America. My eyes still look on the city's beast of a skyline like that first time I arrived at O'Hare with nothing but a suitcase, a cranky old laptop, and a vague desire to study social science.
+The first year in Lafayette, filled my life with wonderful new people, and concluded by going back to the city marking my first experience in America. My eyes still look at the city's beast of a skyline like that first time I arrived at O'Hare with nothing but a suitcase, a cranky old laptop, and a vague desire to study social science.
 Now, I can for sure say that at least one of those things remains true. 
 
 As I am traveling back to Europe to attend conferences, reconnect with family and friends, I am reminded of Ata's words: 
