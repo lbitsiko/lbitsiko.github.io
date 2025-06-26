@@ -11,3 +11,6 @@ Website includes:
 - a personal `Blog`
 - `Contact` information with social media links
 
+```
+bundle exec jekyll serve
+```
